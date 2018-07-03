@@ -1,0 +1,10 @@
+{
+  "name": "jest-environment-selenium-webdriver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "jest-environment-node": "^23.2.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}

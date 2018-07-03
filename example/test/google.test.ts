@@ -7,7 +7,8 @@ describe('Google.com', () => {
   });
   it("should have I'm Feeling lucky input", async () => {
     await GooglePage.open();
-    expect(await GooglePage.imFeelingLucky.getAttribute('aria-label')).toEqual(
+    await expect(GooglePage.imFeelingLucky).toHaveAttribute(
+      'aria-label',
       'Jeg prøver lykken'
     );
   });
